@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYP handler Project  Section</title>
+    <style>
+     
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+
+
+        }
+
+        nav {
+            /* position: relative; */
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: transparent;
+            height: 80px;
+            width: 90%;
+            margin: 20px auto;
+            border-radius: 30px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.678);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: transparent;
+            height: 80px;
+            width: 40%;
+            /* margin: auto; */
+            border-radius: 30px;
+            color: white;
+
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-family: 'Rubik Vinyl', cursive;
+            width: 20%;
+        }
+        
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+    </style>
+</head>
+<body>
+        
+    <nav class="Nav">
+        <div class="logo">
+            FYP Handler
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a> </li>
+            <li><a href="./AboutUs.html">About us</a> </li>
+            <li><a href="./Projects.html">Projects</a></li>
+            <li><a href="./Contactus.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search By Technolog Name" title="Type in a name" style="width: 80%; margin-left: 140px">
+
+<table id="myTable" style="width: 80%; margin: auto;"style="width: 80%; margin: auto;min-height:60vh;">
+  <tr class="header">
+    <th>Batch Number</th>
+    <th>Project Partners Names</th>
+    <th>Supervisor Name</th>
+    <th>Project Name </th>
+    <th>Technology Use in Your  Projects ( like Machine Learning , Web , App , IOT ,Cyber Security etc )</th>
+    <th>Description of Your projects</th>
+  </tr>
+  <tr>
+    <td>Batch 19</td>
+    <td>Syed Muhammad Muneeb  Tooba Mehboob </td>
+    <td>Dr.iftikhar Ahmed </td>
+    <td>Maize seed species classification using machine learning </td>
+    <td>Machine learning </td>
+    <td>The basic goal of our project is to classify different varieties of seed images which will help beginner student, researchers and scientists to identify seeds by namely. </td>
+  </tr>
+  <tr>
+    <td>Batch 19</td>
+    <td>Raja Taimur and sarmad riaz</td>
+    <td>Amir taj</td>
+    <td>Plant disease detection and classification using ML</td>
+    <td>Machine learning and App</td>
+    <td>Plant disease detection and classification using ML </td>
+  </tr>
+
+  <tr>
+    <td>Batch 19</td>
+    <td>Ali Zaman Usman Ahmed Mubashir Ahmed</td>
+    <td>Sir Amir Taj</td>
+    <td>Predictive Analysis in Distribution Business</td>
+    <td>Machine Learning</td>
+    <td>Forcasting Sales Predictions </td>
+  </tr>
+
+
+  <tr>
+    <td>Batch 19</td>
+    <td>Rizwan Ahmad, M Abbas, Sabreen Ali</td>
+    <td>Miss Aisha Javaid</td>
+    <td>Counterfeit drugs detection using Blockchain.</td>
+    <td>Blockchain.</td>
+    <td>We aim to develop a system that can reduce the introduction of fake drugs using blockchain technology. Our main aim is to bring transparency in the current Supply chain management of Pharmaceutical industry through use of blockchain.</td>
+  </tr>
+
+
+  <tr>
+    <td>Batch 19</td>
+    <td>M.tehseen and yasir hameed </td>
+    <td>Sir Alauddin </td>
+    <td>Fish specie classification </td>
+    <td>Machine learning and CNN</td>
+    <td>Fish specie classification by using different image enhancement technique and CNN for the classification of image.</td>
+  </tr>
+
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>Muhammad Mubashir, Ali Zaman, Usman Ahmad </td>
+    <td>Amir Taj</td>
+    <td>Distribution business Predictive Analysis </td>
+    <td>Machine Learning</td>
+    <td>This project will help the distribution companies to predict future profitable products and manage products inventory efficiently.</td>
+  </tr>
+   
+  <tr>
+    <td>Batch 19</td>
+    <td>Zeeshan Haider, Shahab Hussain </td>
+    <td>Dr. Suhail Yousaf</td>
+    <td>Earthquake Early Warning System</td>
+    <td>Machine Learning ,Web, App</td>
+    <td>An automatic early warning system that detect earthquake while it's taking place in the  early stage and generate an alert warning that  should be broadcast to nearby locations in order to take a protective action.</td>
+  </tr>
+  
+
+  <tr>
+    <td>Batch 19</td>
+    <td> Yasir Hameed , M.Tahseen , Waseem Akhbar </td>
+    <td>Sir Alauddin </td>
+    <td>Fish specie classification </td>
+    <td>Machine learning and CNN</td>
+    <td>Fish specie classification by using different image enhancement technique and CNN for the classification of image.</td>
+  </tr>
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>Ali Khan and Maleeha Johar , Arif Kamal </td>
+    <td>Syed Adeel Ali Shah</td>
+    <td>Optimized E-Commerce Controller</td>
+    <td>Html CSS React ExpressJs Data Science</td>
+    <td>OEC is a product hunting tool which helps the seller to sell their products on an e-commerce website efficiently. The tool provides insights of an e-commerce website such as Daraz. This includes product evaluation, keywords optimization, products trends etc. </td>
+  </tr>
+  
+  <tr>
+    <td>Batch 19</td>
+    <td> Zulqarnain</td>
+    <td>Mam zakira </td>
+    <td>Online rental car management system </td>
+    <td>Php, bootstrap, css, html. (Website) </td>
+    <td>to consume buyer time</td>
+  </tr>
+  
+
+
+
+  <tr>
+    <td>Batch 19</td>
+    <td>Habib </td>
+    <td>adeel and Co.Supervisor sadeeq jan</td>
+    <td>ctf</td>
+    <td>cybersecurity </td>
+    <td>simple it's like a games for hackers to improve their skill in real world problem.</td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>Batch 19</td>
+    <td> Hammad Iqbal & Meeral Ahmad</td>
+    <td>Sir Inayat Ullah</td>
+    <td>Men line</td>
+    <td>Flutter App development</td>
+    <td>Users these days are more comfortable with online services for almost everything, whether it is about errand services or on-demand beauty services. Be it a simple small salon or huge franchise, having an online presence will definitely showcase the difference in customer engagement and revenue.</td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>Shaheer Qureshi, Sameer Shahzad, Muqaddas Ishaq </td>
+    <td>Dr. Imran Khalil</td>
+    <td>Digitransform- Department MIS</td>
+    <td>React/React-Natice</td>
+    <td>We are moving all departmental activities for masters/PhD to a paperless environment.</td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>Nisar </td>
+    <td>Miss Ayesha  javaid</td>
+    <td>Mr-Mech</td>
+    <td>Web, App</td>
+    <td>Automobile services at door step</td>
+  </tr>
+  
+  
+  <tr>
+    <td>Batch 19</td>
+    <td> Mavia Imran</td>
+    <td>Sir Imran Rasheed</td>
+    <td>The Last Man Alive</td>
+    <td>Game Development ( Unity 3D)</td>
+    <td>Virtual Reality (VR) creates a great evolution in the computer gaming world. Virtual Reality gaming provides a more realistic platform rather than traditional gaming. Our project “The Last Man Alive” is a unity-based first-person VR game that will be developed in C# language, Visual Studio, and unity 3D. The game will provide you the different difficulty levels. In the respective level user must kill the zombies in a given time. No Extra Time will be provided to the player on the map, a health kit will be provided to heal the damage to his health. The story of this game is about a family. So, a family decides to take a trip and go to a very strange place. There, they discover that some bad people are doing some illegal chemical reactions. The bad guys catch them and take them to their boss. The boss orders his men to apply chemical reactions to this family. Everybody dies due to reactions, but a family member escapes from the chemical reaction and runs away from this place. After some time, the guy returns to take his revenge. So, this game is about revenge for this guy. There are many challenges and rewards in the game. </td>
+  </tr>
+  
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>AULIYA UR RAHMAN </td>
+    <td>DR IFTIKHAR AHMED</td>
+    <td>Detection of Alzheimer’s Disease Through Deep Learning</td>
+    <td>Machine Learning,Deep Learning</td>
+    <td>"Alzheimer’s disease (AD) is a progressive neurodegenerative disease that’s caused due to the damage of memory cells permanently, most referred to as dementia. It causes the death of nerve cells and loss of tissues throughout the brain, which results in memory loss. we will propose a novel deep-learning architecture to detect multiclass Alzheimer’s disease using MRI images.
+      "</td>
+  </tr>
+  
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>Hassan khan and Salman Jaffer  </td>
+    <td>Sadiq ur Rehman </td>
+    <td>Inventory & Purchase system for CSIT </td>
+    <td>App</td>
+    <td>Inventory management helps companies identify which and how much stock to order at what time. It tracks inventory from purchase to the sale of goods. The practice identifies and responds to trends to ensure there's always enough stock to fulfill customer orders and proper warning of a shortage.</td>
+  </tr>
+  
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>Aqib mazhar omer arham </td>
+    <td>Suhail yusaf</td>
+    <td>Vinterior</td>
+    <td>Virtual reality </td>
+    <td>Using vr letting your make and decorate there rooms</td>
+  </tr>
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>Zia ur rehman,  Bilal Ahmad,  and Osama noor shah  </td>
+    <td>Inayat Ullah</td>
+    <td>Online seat reaservation</td>
+    <td>App</td>
+    <td>To easy way for the students to book our seat in university on online app</td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>Batch 19</td>
+    <td> Solo</td>
+    <td>Dilawar khan</td>
+    <td>NORTH(CHITRAL&GILGIT) TOURISM WEBSITE</td>
+    <td>WEB</td>
+    <td>It is website where a tourists find his best hotel,Toursit spot,Transport etc</td>
+  </tr>
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>M.Ezaan , Mahnoor </td>
+    <td>Ma'am wajeeha.</td>
+    <td>Crime rate prediction</td>
+    <td>Technology involved= Data mining,machine learning , Web app</td>
+    <td>Predicting crime rates in society..</td>
+  </tr>
+  
+  <tr>
+    <td>Batch 19</td>
+    <td>masroor Ahmed</td>
+    <td>Sir Dilawar</td>
+    <td>NORTH(Gilgite & Chitral) Travel Site</td>
+    <td>MERN stack</td>
+    <td>Travel Site</td>
+  </tr>
+  
+
+
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[4];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<footer class="footer" style="            box-shadow: 30px 20px 10px gray;
+margin-top: 20px;        ">
+    <h2 style="text-align: center;" >All &copy;Copy Right Belongs to Tech Guys</h2>
+
+</footer>
+
+</body>
+</html>

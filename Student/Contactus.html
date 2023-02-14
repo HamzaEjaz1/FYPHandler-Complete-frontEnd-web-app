@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYP handler Contact us Section</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+
+
+        }
+
+        nav {
+            /* position: relative; */
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: transparent;
+            height: 80px;
+            width: 90%;
+            margin: 20px auto;
+            border-radius: 30px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.678);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: transparent;
+            height: 80px;
+            width: 40%;
+            /* margin: auto; */
+            border-radius: 30px;
+            color: white;
+
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-family: 'Rubik Vinyl', cursive;
+            width: 20%;
+        }
+        textarea {
+        width: 100%;
+        padding: 8px 20px;
+        margin: 20px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: antiquewhite;        resize: none;
+    }
+    input[type=text], input[type=email] {
+        width: 100%;
+        padding: 8px 20px;
+        margin: 20px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 1px solid rgb(209, 209, 209);
+        border-radius: 5px;
+        background-color: antiquewhite;
+        resize: none;
+    }
+
+    input[type=text]:hover {
+        background-color: transparent;
+    }
+    
+    .button {
+        position: relative;
+        background: linear-gradient(45deg, rgb(66, 188, 245), rgb(245, 66, 191));
+        border: none;
+        border-radius: 15px;
+        /* font-size: px; */
+        color: #FFFFFF;
+        padding: 8px 20px;
+        width: 100%;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <nav class="Nav">
+        <div class="logo">
+            FYP Handler
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a> </li>
+            <li><a href="./AboutUs.html">About us</a> </li>
+            <li><a href="./Projects.html">Projects</a></li>
+            <li><a href="./Contactus.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="Container" style="width:80%;margin:50px auto; box-shadow: 30px 20px 10px gray; ">
+    <h2 style="text-align: center; margin:30px auto;">
+    Contact us</h2>
+    <form action="action.php" method="post">
+
+        
+    <label for="">Name</label>
+    <input type="text">
+
+    <label for="">Email</label>
+    <input type="email" name="" id="">
+
+    <label for="">Comments</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+    <button class="button" type="submit">Submit</button>
+    </form>
+    </div>
+
+
+    <footer class="footer" style="            box-shadow: 30px 20px 10px gray;
+margin-top: 20px;        ">
+    <h2 style="text-align: center; padding: 10px;" >All &copy;Copy Right Belongs to Tech Guys</h2>
+
+</footer>
+</body>
+</html>
